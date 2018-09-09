@@ -1,0 +1,138 @@
+*{
+    transition: all 0.3s ease-in-out 0s;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    font-family: 'Lobster Two',cursive; 
+    font-size: large;
+    text-shadow: 2px 2px 5px black;
+}
+header{
+    background-image: url("../assets/bg.png");
+    background-size:cover; 
+    margin-top: -15px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.camp{
+    height: 200px;
+    width: 350px;
+}
+
+nav ul{
+    background: rgba(0, 0, 0, 0.301);
+    padding: 0;
+}
+
+#logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+nav ul li{
+    margin: 20px;
+    display: inline-block;
+    font-size: large;
+    text-decoration: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+
+nav ul li a:hover{
+    font-size: x-large;
+    color: rgb(216, 14, 81);
+}
+
+.main{
+    width: 50%;
+    margin: auto;
+    color: rgb(216, 14, 81);
+}
+
+#trips,#about,h4,p{
+    text-align: justify;
+}
+
+h3{
+    text-shadow: 2px 2px 4px black;
+    text-decoration: underline;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+h3:hover{
+    color: rgba(0, 81, 255, 0.925); 
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+#mainpic1, #mainpic2, #mainpic3{
+    border: solid;
+}
+/*
+img:hover{
+    height: 500px;
+    width: 500px;
+}*/
+
+h1{
+    color: rgb(216, 14, 81);
+}
+
+button{
+    width: 90px;
+    height: 44px;
+    font-size: 15px;
+    margin: 10px;
+    background-color: rgb(216, 14, 81);
+    cursor: pointer;
+}
+
+button:hover{
+    color: rgba(0, 81, 255, 0.925);
+    font-size: 16px;
+}
+
+i{
+    transition: none;
+}
+
+#photos{
+    text-align: justify;
+}
+
+footer{
+    background-image: url("../assets/sky.jpg");
+    background-size:cover; 
+    
+}
+
+
+@media screen and (max-width: 500px){
+    nav ul{
+        background: none;
+    }
+    nav ul li{
+        background-color: rgba(0, 0, 0, 0.301);
+        display: block;
+        margin: 10px 0px;
+    }
+}
